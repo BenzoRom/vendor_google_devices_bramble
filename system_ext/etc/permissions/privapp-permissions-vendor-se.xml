@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 Benzo Rom
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<permissions>
+
+    <privapp-permissions package="com.google.android.carriersetup">
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.CHANGE_NETWORK_STATE"/>
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.MANAGE_NETWORK_POLICY"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="com.verizon.mips.services.RECEIVE_SUW_CARRIER_SCREENS_UPDATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.cbrsnetworkmonitor">
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.connectivitythermalpowermanager">
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.ACCESS_SURFACE_FLINGER"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE"/>
+        <permission name="android.permission.DEVICE_POWER"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.REGISTER_STATS_PULL_ATOM"/>
+        <permission name="com.google.android.permission.USE_GRIL"/>
+        <permission name="com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.grilservice">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.hbmsvmanager">
+        <permission name="android.permission.CAMERA_OPEN_CLOSE_LISTENER"/>
+        <permission name="android.permission.CREATE_USERS"/>
+        <permission name="android.permission.DEVICE_POWER"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.STATUS_BAR_SERVICE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="org.codeaurora.ims">
+        <permission name="android.permission.BROADCAST_STICKY"/>
+        <permission name="android.permission.CAMERA"/>
+        <permission name="android.permission.CREATE_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.qti.permission.AUDIO"/>
+        <permission name="com.qti.permission.DIAG"/>
+        <permission name="com.qti.permission.RECEIVE_CALLCOMPOSER_INFO"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.verizon.llkagent">
+        <permission name="android.permission.CLEAR_APP_USER_DATA"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS"/>
+        <permission name="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS"/>
+        <permission name="com.verizon.permission.STORE_DEMO_MODE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        <permission name="com.google.android.connectivitymonitor.permission.NOTIFY_PROCESS_CRASHED"/>
+        <permission name="com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.RilConfigService">
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+        <permission name="com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.turboadapter">
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+    </privapp-permissions>
+
+</permissions>

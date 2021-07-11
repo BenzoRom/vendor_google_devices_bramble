@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_cameraProtectionExcludedPackages">com.google.android.as</string>
+    <string name="config_frontBuiltInDisplayCutoutProtection">M 25,77 a 52,52 0 1 0 104,0 a 52,52 0 1 0 -104,0 Z</string>
+    <string name="config_protectedCameraId">1</string>
+    <string name="config_rounded_mask">M136,0 C80,4 58,9 33,33 9,58 4,80 0,136</string>
+    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+    <string name="proximity_sensor_type">com.google.sensor.binned_brightness</string>
+</resources>

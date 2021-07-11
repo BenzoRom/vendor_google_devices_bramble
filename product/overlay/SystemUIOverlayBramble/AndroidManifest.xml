@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.android.systemui.auto_generated_rro_vendor__" platformBuildVersionCode="30" platformBuildVersionName="11"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:extractNativeLibs="false" />
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="30" />
+    <overlay android:priority="0" android:targetPackage="com.android.systemui" android:isStatic="true" />
+</manifest>
