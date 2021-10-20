@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.providers.telephony.overlay.bramble">
+    <application android:hasCode="false" />
+    <overlay android:targetPackage="com.android.providers.telephony"
+             android:isStatic="true"
+             android:priority="1"/>
+</manifest>

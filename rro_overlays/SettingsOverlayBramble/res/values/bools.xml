@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_nfc_detection_point">true</bool>
+    <bool name="config_show_avatar_in_homepage">true</bool>
+    <bool name="config_show_device_header_in_device_info">false</bool>
+    <bool name="config_show_regulatory_info">true</bool>
+    <bool name="config_show_touch_sensitivity">true</bool>
+</resources>
